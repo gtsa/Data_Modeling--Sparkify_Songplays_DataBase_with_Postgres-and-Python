@@ -59,9 +59,13 @@ For someone to build an image of our database (*sparkifydb*) and its star-struct
    
    1. Lauch a command-line interface (terminal)
    
-   2. Run ***create_tables.py*** (command: *python create_tables.py*)
+   2. Run ***create_tables.py***
    
-   3. Run ***etl.py*** (command: *python create_tables.py*)
+    python create_tables.py
+   
+   3. Run ***etl.py***
+   
+    python create_tables.py*)
    
 **\*** The database can be explored and tested via ***test.ipynb***
 
