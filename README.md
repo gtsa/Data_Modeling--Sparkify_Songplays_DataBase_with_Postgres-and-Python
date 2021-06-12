@@ -42,14 +42,35 @@ Our repository consists of the following files:
     - ***log_data*** folder
     - ***song_data*** folder
 2. **Python** files (***.py***)
-    - ***sql_queries.py***
+    - ***sql_queries.py*** (contains all our sql queries that are imported into the following two files,
+    - ***create_tables.py*** (drops and creates our tables. We run this file to reset our tables before each time we run our ETL scripts,
+    - ***etl.py*** (reads and processes files from song_data and log_data and loads them into our tables
 3. **Jupyter Notebook** files (***.ipynb***)
+    - ***test.ipynb*** (dedicated - either with its SQL queries, or as a draft notebook to write others - to let anyone check our database)
+    - ***etl.ipynb*** (consice presentation/outline of the steps and methodology of our ETL pipeline building
 
 ---------------------
 
 #### Instructions on how to run the scripts
-The Python files of our repository (*.py*)
-
+For someone to build an image of our database (*sparkifydb*) and its star-structured schema of 5 tables (1 fact and 4 dimension ones), they must follow **serially** the following three steps:
+   
+   1. Lauch a command-line interface (terminal)
+   
+   2. Run ***create_tables.py*** (command: *python create_tables.py*)
+   
+   3. Run ***etl.py*** (command: *python create_tables.py*)
+   
+   **\*** The database can be explored and tested via ***test.ipynb***
 
 #### *Query Examplles
+
+*SELECT \* FROM songplays LIMIT 5;*
+
+*SELECT \* FROM users LIMIT 5;*
+
+*SELECT \* FROM songs LIMIT 5;*
+
+*SELECT \* FROM artists LIMIT 5;*
+
+*SELECT \* FROM time LIMIT 5;*
 
