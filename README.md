@@ -63,17 +63,17 @@ For someone to build an image of our database (*sparkifydb*) and its star-struct
    
    3. Run ***etl.py*** (command: *python create_tables.py*)
    
-<br /><br />**\*** The database can be explored and tested via ***test.ipynb***
+<br /><br /><br />**\*** The database can be explored and tested via ***test.ipynb***
 
-    #### Query Examples
+    Query Examples
     
-    - *SELECT \* FROM songplays LIMIT 5;*
+    - SELECT \* FROM songplays LIMIT 5;
 
-    - *SELECT \* FROM users LIMIT 5;*
+    - SELECT \* FROM users LIMIT 5;
 
-    - *SELECT \* FROM songs LIMIT 5;*
+    - SELECT \* FROM songs LIMIT 5;
 
-    - *SELECT \* FROM artists LIMIT 5;*
+    - SELECT \* FROM artists LIMIT 5;
 
-    - *SELECT \* FROM time LIMIT 5;*
+    - SELECT \* FROM time LIMIT 5;
 
