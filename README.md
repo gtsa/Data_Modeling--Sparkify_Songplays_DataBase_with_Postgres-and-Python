@@ -1,4 +1,4 @@
-## Sparkify Data Modeling with Postgres
+## Sparkify Data Modeling with Postgres (SQL, Python)
 
 Wanting to analyze the data we've been collecting on songs and user activity on our new music streaming app, Sparkify's analytics team is particularly interested in understanding what songs users are listening to. 
 
@@ -65,7 +65,7 @@ For someone to build an image of our database (*sparkifydb*) and its star-struct
    
    3. Run ***etl.py***
    
-    python create_tables.py*)
+    python create_tables.py
    
 **\*** The database can be explored and tested via ***test.ipynb***
 
