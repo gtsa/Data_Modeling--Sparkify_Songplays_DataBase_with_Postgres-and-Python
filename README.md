@@ -15,14 +15,41 @@ we chose to arrange our data in a star schema structure in Postgres, building as
 So, our schema consists of the following tables:
 
 - **Fact Table**
+    
     1. songplays - records in log data associated with song plays i.e. records with page "NextSong"
         - *songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent*
+
 - **Dimension Tables**
+    
     2. users - users in the app
         - *user_id, first_name, last_name, gender, level*
+    
     3. songs - songs in music database
         - *song_id, title, artist_id, year, duration*
+    
     4. artists - artists in music database
         - *artist_id, name, location, latitude, longitude*
+    
     5. time - timestamps of records in songplays broken down into specific units
         - *start_time, hour, day, week, month, year, weekday*
+        
+--------------------
+
+#### Files in the respository
+
+Our repository consists of the following files:
+1. **Data** files (***data*** folder)
+    - ***log_data*** folder
+    - ***song_data*** folder
+2. **Python** files (***.py***)
+    - ***sql_queries.py***
+3. **Jupyter Notebook** files (***.ipynb***)
+
+---------------------
+
+#### Instructions on how to run the scripts
+The Python files of our repository (*.py*)
+
+
+#### *Query Examplles
+
