@@ -38,13 +38,16 @@ So, our schema consists of the following tables:
 #### Files in the respository
 
 Our repository consists of the following files:
+
 1. **Data** files (***data*** folder)
     - ***log_data*** folder
     - ***song_data*** folder
+    - 
 2. **Python** files (***.py***)
     - ***sql_queries.py*** (contains all our sql queries that are imported into the following two files,
     - ***create_tables.py*** (drops and creates our tables. We run this file to reset our tables before each time we run our ETL scripts,
     - ***etl.py*** (reads and processes files from song_data and log_data and loads them into our tables
+    - 
 3. **Jupyter Notebook** files (***.ipynb***)
     - ***test.ipynb*** (dedicated - either with its SQL queries, or as a draft notebook to write others - to let anyone check our database)
     - ***etl.ipynb*** (consice presentation/outline of the steps and methodology of our ETL pipeline building
@@ -60,17 +63,17 @@ For someone to build an image of our database (*sparkifydb*) and its star-struct
    
    3. Run ***etl.py*** (command: *python create_tables.py*)
    
-    **\*** The database can be explored and tested via ***test.ipynb***
+<br /><br />**\*** The database can be explored and tested via ***test.ipynb***
 
-#### Query Examples
+    #### Query Examples
+    
+    - *SELECT \* FROM songplays LIMIT 5;*
 
-- *SELECT \* FROM songplays LIMIT 5;*
+    - *SELECT \* FROM users LIMIT 5;*
 
-- *SELECT \* FROM users LIMIT 5;*
+    - *SELECT \* FROM songs LIMIT 5;*
 
-- *SELECT \* FROM songs LIMIT 5;*
+    - *SELECT \* FROM artists LIMIT 5;*
 
-- *SELECT \* FROM artists LIMIT 5;*
-
-- *SELECT \* FROM time LIMIT 5;*
+    - *SELECT \* FROM time LIMIT 5;*
 
