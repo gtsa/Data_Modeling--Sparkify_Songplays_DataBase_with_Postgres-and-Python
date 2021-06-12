@@ -69,16 +69,12 @@ For someone to build an image of our database (*sparkifydb*) and its star-struct
 
 
     SELECT \* FROM songplays LIMIT 5;
-,
-
+ 
     SELECT \* FROM users LIMIT 5;
-,
-
+ 
     SELECT \* FROM songs LIMIT 5;
-,
-
+ 
     SELECT \* FROM artists LIMIT 5;
-,
-
+ 
     SELECT \* FROM time LIMIT 5;
 
