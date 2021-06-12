@@ -60,9 +60,9 @@ For someone to build an image of our database (*sparkifydb*) and its star-struct
    
    3. Run ***etl.py*** (command: *python create_tables.py*)
    
-   **\*** The database can be explored and tested via ***test.ipynb***
+    **\*** The database can be explored and tested via ***test.ipynb***
 
-#### *Query Examplles
+#### Query Examples
 
 - *SELECT \* FROM songplays LIMIT 5;*
 
